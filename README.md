@@ -53,22 +53,23 @@ The script uses Python with Selenium WebDriver to simulate browser interactions.
 
    ```bash
    git clone <repository-url>
-
+	```
 2. **Install Dependencies:**
 
+   ```bash	
    pip install selenium webdriver-manager
-
+   ```
 # Usage
 
 ## Configuration
 
 - Update the onedrive_url variable with your OneDrive login page URL.
-- Ensure that the download_path variable points to your desired local directory (e.g., your external drive).
+- Ensure that the download_path variable points to your local directory (e.g., your external drive).
 
 ## Run the Script
-
-   python OneDrive.py
-
+   ```bash
+   python onedrive_downloader.py
+   ```
 ## Manual Login
 
 When prompted, log in to your OneDrive account manually in the browser window.
@@ -93,15 +94,11 @@ The script monitors the default download directory and waits until a file's size
 
 # Contributing
 
-Contributions, suggestions, and improvements are welcome! Please open an issue or submit a pull request with any enhancements or bug fixes.
+Contributions, suggestions, and improvements are welcome! Please open an issue or submit a pull request with any improvements or bug fixes.
 
 # License
 
 This project is licensed under the MIT License.
-
-# Acknowledgements
-
-Special thanks to the Selenium community and various online resources for guidance on automating browser interactions and handling dynamic web content.
 
 
 
